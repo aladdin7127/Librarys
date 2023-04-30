@@ -2478,10 +2478,6 @@ function RayfieldLibrary:LoadConfiguration()
 	end
 end
 
-function RayfieldLibrary:SetTheme(Name)
-    ChangeTheme(Name)
-end
-
 task.delay(3.5, RayfieldLibrary.LoadConfiguration, RayfieldLibrary)
 
 return RayfieldLibrary
